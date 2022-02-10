@@ -62,7 +62,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  row-gap: 50px;
 }
 /*image card for profile photo*/
 #profile-card {
@@ -71,6 +70,18 @@ body {
 /*image card for blog photos/links*/
 .blog-card {
   display: flex;
+}
+@media (max-width: 600px) {  
+  #profile-card {
+    transform: scale(0.75);
+    position: relative;
+  }
+  .articles {
+    justify-content: space-evenly;
+    overflow: hidden;
+    margin-top: 40px;
+  }
+
 }
 /*shared properties for all image cards*/
 figure {
@@ -164,7 +175,7 @@ a {
 }
 /*blog layout - reused for every blog page*/
 .blog-content {
-  margin: 100px 80px 0 80px;
+  margin: 100px 7.5% 0 7.5%;
   font-family: var(--main-text);
   color: var(--black);
 }
@@ -184,6 +195,7 @@ a {
 .blog-image1 {
   box-shadow: 5px 5px var(--pink);
   border: 1px solid var(--black);
+  max-height: auto;
 }
 /*media queries for blog page - if screen is 1050px or bigger line p1 and image1 up next to each other*/
 @media (min-width: 1050px) {
