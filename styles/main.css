@@ -76,12 +76,11 @@ body {
     transform: scale(0.75);
     position: relative;
   }
-  .articles {
+  .index-article {
     justify-content: space-evenly;
     overflow: hidden;
     margin-top: 40px;
   }
-
 }
 /*shared properties for all image cards*/
 figure {
@@ -158,13 +157,13 @@ figure:hover {
   position: relative;
   width: 0;
   height: 0;
-  left: -50%;
+  right: 180px;
   top: -20px;
 }
 .new-callout {
   position: relative;
-  left: -38%;
-  top: -10px;
+  left: 40px;
+  bottom: 125px;
   font-family: var(--callouts);
   font-size: 2.8em;
 }
@@ -195,7 +194,7 @@ a {
 .blog-image1 {
   box-shadow: 5px 5px var(--pink);
   border: 1px solid var(--black);
-  max-height: auto;
+  max-height: 100%;
 }
 /*media queries for blog page - if screen is 1050px or bigger line p1 and image1 up next to each other*/
 @media (min-width: 1050px) {
