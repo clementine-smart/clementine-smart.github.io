@@ -218,3 +218,14 @@ a {
     max-width: 40%;
   }
 }
+code {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  background-color: #fffef9;
+  border: 2px solid var(--green);
+  box-shadow: 5px 5px var(--pink);
+  width: 100%;
+  padding: 5%;
+}
