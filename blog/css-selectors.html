@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--1. Change blog-post title [x]-->
+  <title>CSS selectors: Class and ID</title>
+  <meta charset="UTF-8">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
+  <link rel="icon" type="image/x-icon" href="../assets/draco-icon-pink.png">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,400;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Condiment&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,600&family=Rubik:ital,wght@0,300;0,400;1,300;1,400;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav id="nav-bar">
+    <div id="nav-left">
+      <a href="draco-gallery.html"><img src="../assets/draco-icon-pink.png" alt="cat logo" id="logo"></a>
+      <a href="../index.html" class="nav-link">clementine</a>
+    </div>
+    <div id="nav-right">
+      <a href="blog-gallery.html" class="nav-link">blog</a>
+    </div>
+  </nav>
+  <!--2. Change heading [x]-->
+  <div class="blog-content">
+    <header class="blog-header">
+      <h1 class="blog-heading">CSS Selectors: Class and ID best practices</h1>
+      <!--3. Change subheading to topic/subject [x]-->
+      <h2 class="sub-heading">technical blog</h2>
+      <!--4. Change date to today [x]-->
+      <h3 class="sub-heading">11 February 2022</h3>
+    </header>
+    <!--5. change paragraph content [x]-->
+    <div class="blog-text">
+      <p class="p1">
+        When styling a web page we need a way to tell the computer which element we want it to add a certain style to.
+        There are a few different ways to go about this but for today we will talk about the class and id selectors.
+        They both have their own uses and rules which make how we work with them different so knowing the difference and
+        best practices is vital.
+      </p>
+      <!--6. Add image and alt text [x]-->
+      <img src="../assets/selector-blog.png" alt="screenshot of html and website" class="blog-image1">
+      <!--Change rest of paragraph content and add lists if necessary and any additional images - always remember alt text[x]-->
+      <p class="green-heading">A couple of quick definitions:</p>
+      <ul>
+        <li><em>A selector,</em> as the name suggests, is a way to select a part of the html so you can add some styling
+          to
+          it.</li>
+        <li>
+          An <em>id</em> selector is a way to give an element a unique identifier which we can then use to select it. We
+          define it in the html using id=”id-name” and use it in css: #id-name {styles to change}<br>
+        </li>
+        <li>
+          A <em>class</em> selector is a way to give an element a common identifier which we can then use to select it
+          and
+          any other elements with the same class. We define it in the html using class=”class-name” and use it in css:
+          .class-name {styles to change}<br>
+        </li>
+      </ul>
+      <p>
+        Take the page you are reading this on as an example. There are lots of different p tags in the screenshot, how
+        do we tell the computer which paragraph we want to style? By giving the tags class and id selectors we can
+        target different elements and make changes to them.
+      </p>
+      <p>
+        Class selectors are used to set common styles across one or more elements. For example - we want to change the
+        font of all of the text in the blogpost we could give every text element a class=”blog-text” and then in css
+        use:
+      </p>
+      <code>.blog-text {<br>
+      font-family: sans-serif;<br>
+      color: black;<br>
+    }</code>
+      <p>This is really powerful as it means we can use classes to create consistent styles and uniform designs across
+        different pages of a website. As long as you are connected to the same css file, any page you want to have the
+        same font you can set the class to blog-text. This also makes it really easy to update styles when you want to
+        change how pages look - you can change the font in the css class and it will be reflected across all of the html
+        elements with that class. <strong>You can add multiple classes to an element and classes can be used across
+          multiple elements.</strong></p>
+      <p id="special-paragraph">
+        id selectors are used to set styles unique to one element. This will become a lot more important later when
+        using JavaScript so while using CSS we should start some good habits. IDs have greater priority over classes
+        which can be useful when you are wanting to change part of a style on one element. Continuing our example of
+        styling this page - we have already set all of the text to sans-serif and black but now we decide that this
+        paragraph is really special and we want to apply some one off, never to be seen again styling like making the
+        text colour coral. So we can give it an id=”special-paragraph”:
+      </p>
+      <code>.blog-text {<br>
+      font-family: sans-serif;<br>
+      color: black;<br>
+    } <br>
+    #special-paragraph {<br>
+      color: coral;<br>
+    }</code>
+      <p>
+        <strong>You can only add one id to an element and an id can only be used on one element in an html
+          page.</strong> This is very important! It won’t pass a validation check and some browsers won’t display
+        properly.
+      </p>
+      <p class="green-heading">Final Thoughts:</p>
+      <ul>
+        <li>Because of their versatility and re-usability classes are a good first go-to when choosing which selector to
+          use. You don’t have to use a class on more than one element but by choosing class you have the option to use
+          that class on other elements later without having to change your code</li>
+        <li>Because of their unique nature ids are only used for an element which might be completely unique in some way
+          - either for identification, styling or overriding the generalised class styling</li>
+        <li>You can give an element both classes and an id</li>
+        <li>Be specific in naming both id and classes - you want to make it easy for you and other people looking at
+          your code to understand</li>
+      </ul>
+      <p>Now I’m off to go make some changes to my classes and ids 🙃</p>
+    </div>
+  </div>
+</body>
+
+</html>

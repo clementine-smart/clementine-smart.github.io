@@ -227,5 +227,8 @@ code {
   border: 2px solid var(--green);
   box-shadow: 5px 5px var(--pink);
   width: 100%;
-  padding: 5%;
+  padding: 2%;
+}
+#special-paragraph {
+  color: coral;
 }
