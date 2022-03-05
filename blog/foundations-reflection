@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--1. Change blog-post title [x]-->
+    <title>foundatations core reflection</title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
+    <link rel="icon" type="image/x-icon" href="../assets/draco-icon-pink.png">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,400;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Condiment&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,600&family=Rubik:ital,wght@0,300;0,400;1,300;1,400;1,900&display=swap"
+    rel="stylesheet">
+  </head>
+  
+  <body>
+    <nav id="nav-bar">
+      <div id="nav-left">
+        <a href="draco-gallery.html"><img src="../assets/draco-icon-pink.png" alt="cat logo" id="logo"></a>
+        <a href="../index.html" class="nav-link">clementine</a>
+      </div>
+      <div id="nav-right">
+        <a href="blog-gallery.html" class="nav-link">blog</a>
+      </div>
+    </nav>
+    <!--2. Change heading [x]-->
+    <div class="blog-content">
+    <header class="blog-header">
+    <h1 class="blog-heading">Foundations - Core Reflections</h1>
+    <!--3. Change subheading to topic/subject [x]-->
+    <h2 class="sub-heading">cultural blog</h2>
+    <!--4. Change date to today [x]-->
+    <h3 class="sub-heading">06 March 2022</h3>
+    </header>
+    <!--5. change paragraph content [x]-->
+    <div class="blog-text">
+    <p class="p1">
+        I have learnt a lot about myself while working through the core learning in the last 5 weeks of bootcamp - though some of those things have been simmering under the surface and my brain has been trying to ignore for a while but core has made me confront them. I learnt in public situations in the past I have been prone to having a fixed mindset and that my ego gets in the way of me growing because I worry about failing (or not thriving) in front of people. I learnt that I find it difficult to pin down my identity - and that I find trying to so quite stressful to try to do so because it makes me feel like I can’t adapt and change. But most importantly, I learnt that I have the ability to improve in any of these aspects by having a growth mindset, being self aware of my weaknesses, practicing the good habits and reflecting.
+    </p>
+<!--6. Add image and alt text [x]-->
+  <!--Change rest of paragraph content and add lists if necessary and any additional images - always remember alt text[x]-->
+    <p>
+        Values, empathy and self-awareness help guide us through our interactions with others as well as looking after ourselves while programming and are so important because they help us maintain good relationships with others we are working with and look after ourselves so we are in the right space to do good work. Values are what guide us as we move through this world and this is no different when it comes to programming. It helps us work with other people, stay true to ourselves and feel comfortable at work. Self awareness is really important in programming for so many reasons. In a technical aspect it helps you accurately evaluate your limitations so you know which areas to work on. More personally it helps you keep your wellbeing in check because you are practiced at checking in on yourself and reading into your thoughts, feelings and actions - understanding where they are coming from and what you can do to change them if need be.
+        <br> Empathy is also so important in programming - both towards yourself and others. Everybody we work with is a person - a real person with their own thoughts, feelings, struggles, background and all of those things make how they act different to how you act - it’s important to remember when you are working together - especially if how someone else is working doesn’t align with how you work. Acting with empathy means taking the time to understand where someone is coming from rather than jumping to conclusions based on your own view of the world - it makes working together a better experience for everyone involved.
+    </p>
+    <p>
+        During core learning I was most surprised about how confronting it could be sometimes and that taught me things about myself that I maybe hadn’t realised or I had tried to ignore. That while I thought I had a growth mindset I can also now see that in many circumstances I have had a fixed mindset and it has limited my growth and potential because I have shied away from challenges which aren’t in a private setting because I am worried about people seeing me potentially fail but it also means that I lose the opportunity to potentially succeed.
+    </p>
+    <p>
+        The most challenging part of core learning was sharing my findings on my blog which I knew other people could read. I think there were two aspects of this which made it challenging, the first being that I find it difficult to share personal thoughts and feelings unless I feel very close to someone so it made me feel vulnerable. The other challenge was that I wanted it to be ‘good enough’ but what does that even mean? It is an ever shifting goal post that my mind gives me when writing which makes it almost impossible to reach. I am still trying to work on this but the time boxes and pomodoro sessions for writing really help - because they make me stick to a certain amount of writing time and I don’t have forever to edit and rewrite and it also keeps me more on task for the writing time because my anxiety around it makes me want to procrastinate but it helps me rein it in.
+    </p>
+    <p>
+        I think it is really important that Dev teaches these skills and puts such an emphasis on them because programming is not a solitary discipline - you always need to work with other people, whether that is working as a team, for a client, for or as a manager or collaborating and that your interactions with those people make them either want to continue working with you or not. Learning these things makes you more hireable because it makes you easier to work alongside. It also helps sets students up to be able to apply those core skills to their own self learning in the future. It makes it easier for them to pick up new programming languages or technologies because they have been taught how to learn.
+    </p>
+    <p>
+        I do not think anything we have learnt in core studies has been a waste of time, it has been difficult, confronting and for me has helped me with my anxiety of sharing personal things about myself and coming to terms with how I work and learn, especially around other people. I think that if we had just learnt programming instead we wouldn’t have learned about how to best prepare us for learning and could have made the programming harder because we weren’t equipped with the tools we need for learning, growing and ultimately success.
+    </p>
+  </div>
+</div>
+  </body>
+</html>
