@@ -71,7 +71,7 @@ body {
 .blog-card {
   display: flex;
 }
-@media (max-width: 600px) {  
+@media (max-width: 600px) {
   #profile-card {
     transform: scale(0.75);
     position: relative;
@@ -198,8 +198,64 @@ a {
   align-self: flex-start;
   max-width: 100%;
 }
-/*media queries for blog page - if screen is 1050px or bigger line p1 and image1 up next to each other*/
-@media (min-width: 1050px) {
+code {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  background-color: #fffef9;
+  border: 2px solid var(--green);
+  box-shadow: 5px 5px var(--pink);
+  width: 100%;
+  padding: 2%;
+}
+#special-paragraph {
+  color: coral;
+}
+/*media queries for blog page - if screen is 1200px or bigger line p1 and image1 up next to each other*/
+
+@media (min-width: 320px) {
+  .blog-content {
+    margin: 100px 15px 0 15px;
+  }
+  .blog-text {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  .blog-text ul {
+    padding-left: 15px;
+  }
+  .p1 {
+    width: 100%;
+  }
+  .blog-image1 {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .blog-content {
+    margin: 100px 60px 0 60px;
+  }
+  .blog-text {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  .p1 {
+    width: 100%;
+  }
+  .blog-image1 {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
   .blog-content {
     margin: 100px 150px 0 150px;
   }
@@ -217,18 +273,4 @@ a {
   .blog-image1 {
     max-width: 40%;
   }
-}
-code {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  background-color: #fffef9;
-  border: 2px solid var(--green);
-  box-shadow: 5px 5px var(--pink);
-  width: 100%;
-  padding: 2%;
-}
-#special-paragraph {
-  color: coral;
 }
